@@ -1,9 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import { Video } from './views/Video'
+import { ImageParent, Image} from './components/StyledImage/StyledImage'
 import './App.css';
 
-function App() {
+function App( props ) {
   return (
     <div className="App">
       <header className="App-header">
@@ -21,6 +22,11 @@ function App() {
         </a>
       </header>
       <Video />
+    <ImageParent>
+      <Image src="https://res.cloudinary.com/makingthings/image/upload/v1558546514/samsung/FunRun.jpg" alt="fun run" />
+    </ImageParent>
+      
+
     </div>
   );
 }
