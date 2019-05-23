@@ -1,6 +1,14 @@
 import styled from "styled-components";
 import { yellow } from "../../data";
 
+const ArticleWrapper = styled.div.attrs({
+  className: "w-50"
+})`
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 2vmin;
+`;
+
 const Article = styled.article.attrs({
   className: "pb2 pb4-ns bg-dark-blue w-100"
 })`
@@ -8,14 +16,6 @@ const Article = styled.article.attrs({
   grid-template-columns: repeat(3, 25vw 1fr);
   grid-template-rows: repeat(6, 1fr);
   grid-auto-rows: 1fr;
-`;
-
-const ArticleWrapper = styled.div.attrs({
-  className: "w-50"
-})`
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  grid-gap: 2vmin;
 `;
 
 const ArticleImage = styled.img.attrs({
