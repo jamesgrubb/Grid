@@ -89,7 +89,7 @@ function App(props) {
             <ArticleFigure>
               <ResponsiveEmbed
                 src={`https://www.youtube.com/embed/kNKRcYDeXxA`}
-                ratio="4:3"
+                ratio="16:9"
               />
               <ArticleFigureImage
                 src="https://res.cloudinary.com/makingthings/image/upload/v1558576456/samsung/rokoko-smartsuit-pro-9.jpg"
