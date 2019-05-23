@@ -22,7 +22,7 @@ const HLogo = styled.div`
 `;
 
 const HTitle = styled.h1.attrs({
-  className: "f2 lh-solid ttu"
+  className: "f4 f2-ns lh-solid ttu"
 })`
   z-index: ${props => props.z};
   grid-column: 3 / -1;
