@@ -30,7 +30,7 @@ function App(props) {
         <HImage
           gc="1 / -1"
           gr="1 / -1"
-          src="https://res.cloudinary.com/makingthings/image/upload/v1558566764/samsung/DwkdhjgUUAAt7bN.jpg"
+          src="https://res.cloudinary.com/makingthings/image/upload/v1558546514/samsung/FunRun.jpg"
           alt="Samsung's Seriously Fun Run"
         />
         <HLogo>
@@ -57,7 +57,7 @@ function App(props) {
 
           <ArticleTextWrapper>
             <ArticleHeader>
-              A Fun Run not quite like anything else
+              A Fun Run unlike any other
             </ArticleHeader>
             <ArticleBody>
               For the first time thousands of runners wearing Sport motion
@@ -139,7 +139,7 @@ function App(props) {
           />
           <ArticleTextWrapper>
             <ArticleHeader>
-              <span className="db">Beyoncé Sung</span> Bieber Sung.
+              <span className="db">Beyoncé Sung</span>
               <span className="db">Timberlake Sung.</span>
               <span className="db">Bieber Sung.</span>
               <span className="db">Samsung.</span>

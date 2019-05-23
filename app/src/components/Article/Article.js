@@ -33,6 +33,9 @@ const ArticleTextWrapper = styled.div.attrs({
   grid-column: 2 / span 4;
   grid-row: 2 / -1;
   box-shadow: -4px -4px 0px hsl(64, 100%, 50%);
+  @media (max-width: 400px){
+    grid-column: 1 / span 4;
+  }
 `;
 
 const ArticleHeader = styled.h1.attrs({

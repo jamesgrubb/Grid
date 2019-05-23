@@ -18,19 +18,19 @@ const HImage = styled.img.attrs({
 
 const HLogo = styled.div`
   grid-column: 2 / span 2;
-  grid-row-start: 2;
+  grid-row-start: 3;
 `;
 
 const HTitle = styled.h1.attrs({
   className: "f4 f2-ns lh-solid ttu pr4"
 })`
   z-index: ${props => props.z};
-  grid-column: 3 / -1;
-  grid-row: 3 / -1;
+  grid-column: 2 / -1;
+  grid-row: 4 / -1;
   color: hsl(64, 100%, 50%);
   @media (max-width: 400px) {
     grid-column: 2 / -1;
-    grid-row: 3 / -1;
+    grid-row: 4 / -1;
   }
 `;
 
