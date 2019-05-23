@@ -22,7 +22,7 @@ const HLogo = styled.div`
 `;
 
 const HTitle = styled.h1.attrs({
-  className: "f4 f2-ns lh-solid ttu"
+  className: "f4 f2-ns lh-solid ttu pr4"
 })`
   z-index: ${props => props.z};
   grid-column: 3 / -1;
@@ -35,7 +35,7 @@ const HTitle = styled.h1.attrs({
 `;
 
 const HSubtitle = styled.h2.attrs({
-  className: "f6 white"
+  className: "f6 white pr3"
 })`
   grid-column: 3 / -1;
   grid-row-start: 5;
