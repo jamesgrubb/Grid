@@ -43,7 +43,7 @@ function App(props) {
       <Intro>
         Londons 1st mass Gyroscopic Suit sports event. A Night Run along the
         banks of the Thames where runners are shadowed by extraordinary
-        creations, culminating in the first ever Volumetrically boadcast live
+        creatures, culminating in the first ever Volumetrically boadcast live
         concert
       </Intro>
       <Video />
@@ -73,7 +73,9 @@ function App(props) {
                 src="https://res.cloudinary.com/makingthings/image/upload/v1558576456/samsung/rokoko-smartsuit-pro-9.jpg"
                 alt="BodySuit"
               />
-              <ArticleFigCaption>Caption</ArticleFigCaption>
+              <ArticleFigCaption>
+                Motion mapping from body suit to cgi character
+              </ArticleFigCaption>
             </ArticleFigure>
           </ArticleTextWrapper>
         </Article>
@@ -86,8 +88,10 @@ function App(props) {
           <ArticleTextWrapper>
             <ArticleHeader>1st ever live 360 degree filmed event</ArticleHeader>
             <ArticleBody>
-              The race will culminate with a party the banks of the river Where
-              A star celebrity will performing on a floating stafge
+              The race will culminate at party on the banks of the river, where
+              Beyoncé will perform on a floating stage. For the 1st time the
+              show will be filmed Volumetrically. Allowing 360 degre projections
+              and streams to Samsung devices
             </ArticleBody>
             <ArticleFigure>
               <ResponsiveEmbed
@@ -99,7 +103,7 @@ function App(props) {
                 alt="BodySuit"
               />
               <ArticleFigCaption>
-                Motion is projectoed on to available surfaces along the banks of
+                Motion is projected on to available surfaces along the banks of
                 the river
               </ArticleFigCaption>
             </ArticleFigure>
@@ -114,7 +118,7 @@ function App(props) {
             <ArticleHeader>Motion Tracking</ArticleHeader>
             <ArticleBody>
               Athletes are tracked their motions translated in to the movements
-              of creatures galloping through the night{" "}
+              of creatures galloping through the night
             </ArticleBody>
             <ArticleFigure>
               <ArticleFigureImage
@@ -124,6 +128,44 @@ function App(props) {
               <ArticleFigCaption>
                 Some of the weird and wonderful creatures runners will encounter
                 along the duration of the course
+              </ArticleFigCaption>
+            </ArticleFigure>
+          </ArticleTextWrapper>
+        </Article>
+        <Article>
+          <ArticleImage
+            src="https://res.cloudinary.com/makingthings/image/upload/v1558463061/samsung/Samsung.gif"
+            alt="Projection"
+          />
+          <ArticleTextWrapper>
+            <ArticleHeader>
+              <span className="db">Beyoncé Sung</span> Bieber Sung.
+              <span className="db">Timberlake Sung.</span>
+              <span className="db">Bieber Sung.</span>
+              <span className="db">Samsung.</span>
+            </ArticleHeader>
+            <ArticleBody>
+              The floating stage will be enhanced by projections on water spray
+              created by stunt waterjet pilots
+            </ArticleBody>
+            <ArticleFigure>
+              <ArticleFigureImage
+                src="https://res.cloudinary.com/makingthings/image/upload/q_40/v1558592408/samsung/Fountains.png"
+                alt="Stage"
+              />
+              <ArticleFigCaption>Floating Stage</ArticleFigCaption>
+            </ArticleFigure>
+            <ArticleFigure>
+              <ArticleFigureImage
+                src="https://res.cloudinary.com/makingthings/image/upload/q_40/v1558599931/samsung/000087a1_medium.jpg"
+                alt="Beats"
+              />
+              <ArticleFigureImage
+                src="https://res.cloudinary.com/makingthings/image/upload/q_40/v1558599945/samsung/big_1416216817flycaptain-flyboard-show-cannes-13.jpg"
+                alt="Stunt Jet"
+              />
+              <ArticleFigCaption>
+                Stunt artits create backdrop for projections
               </ArticleFigCaption>
             </ArticleFigure>
           </ArticleTextWrapper>
