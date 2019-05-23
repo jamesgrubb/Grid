@@ -31,7 +31,7 @@ function App(props) {
           gc="1 / -1"
           gr="1 / -1"
           src="https://res.cloudinary.com/makingthings/image/upload/v1558566764/samsung/DwkdhjgUUAAt7bN.jpg"
-          alt="Samsung's Seriously Fun Runap"
+          alt="Samsung's Seriously Fun Run"
         />
         <HLogo>
           <Logo />
@@ -41,9 +41,9 @@ function App(props) {
         <HSubtitle />
       </HContainer>
       <Intro>
-        Londons 1st mass Gyroscopic Suit sports event. A Night Run along the
+        London's 1st mass Gyroscopic Suit sports event. A Night Run along the
         banks of the Thames where runners are shadowed by extraordinary
-        creatures, culminating in the first ever Volumetrically boadcast live
+        creatures, culminating in the first ever Volumetrically broadcast live
         concert
       </Intro>
       <Video />
@@ -90,8 +90,8 @@ function App(props) {
             <ArticleBody>
               The race will culminate at party on the banks of the river, where
               Beyoncé will perform on a floating stage. For the 1st time the
-              show will be filmed Volumetrically. Allowing 360 degre projections
-              and streams to Samsung devices
+              show will be filmed Volumetrically. Allowing 360 degree
+              projections and streams to Samsung devices
             </ArticleBody>
             <ArticleFigure>
               <ResponsiveEmbed
@@ -146,7 +146,7 @@ function App(props) {
             </ArticleHeader>
             <ArticleBody>
               The floating stage will be enhanced by projections on water spray
-              created by stunt waterjet pilots
+              created by stunt water-jet pilots
             </ArticleBody>
             <ArticleFigure>
               <ArticleFigureImage
