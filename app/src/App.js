@@ -92,7 +92,7 @@ function App(props) {
                 ratio="16:9"
               />
               <ArticleFigureImage
-                src="https://res.cloudinary.com/makingthings/image/upload/v1558576456/samsung/rokoko-smartsuit-pro-9.jpg"
+                src="https://res.cloudinary.com/makingthings/image/upload/q_40/v1558592408/samsung/Fountains.png"
                 alt="BodySuit"
               />
               <ArticleFigCaption>
