@@ -19,6 +19,7 @@ import {
   HLogo,
   HSubtitle
 } from "./views/Header/Header";
+import { Intro } from "./components/Intro/Intro";
 import { ReactComponent as Logo } from "./Samsung_Logo.svg";
 import "./App.css";
 
@@ -36,29 +37,32 @@ function App(props) {
           <Logo />
         </HLogo>
 
-        <HTitle>Samsung's Seriously Sick Fun Run</HTitle>
-        <HSubtitle>
-          Londons First Gyroscopic suit mass event, along the banks of the
-          Thames culminating in The first ever Volumetrically boadcast live
-          concert
-        </HSubtitle>
+        <HTitle>Samsung's Seriously Fun Run</HTitle>
+        <HSubtitle />
       </HContainer>
-
+      <Intro>
+        Londons 1st mass Gyroscopic Suit sports event. A Night Run along the
+        banks of the Thames where runners are shadowed by extraordinary
+        creations, culminating in the first ever Volumetrically boadcast live
+        concert
+      </Intro>
       <Video />
+
       <ArticleWrapper>
         <Article>
           <ArticleImage
             src="https://res.cloudinary.com/makingthings/image/upload/v1558546514/samsung/FunRun.jpg"
             alt="fun run"
           />
+
           <ArticleTextWrapper>
-            <ArticleHeader>A run London has never seen before</ArticleHeader>
+            <ArticleHeader>
+              A Fun Run not quite like anything else
+            </ArticleHeader>
             <ArticleBody>
-              For the first time hundresds of key runners / pacers wil be
-              wearing Sport motion tracking suits. As these runners pass pas key
-              points augmented images of weird and wonderful night creatures
-              will be projected . Their movements tracked by sensros in the
-              suits.
+              For the first time thousands of runners wearing Sport motion
+              tracking suits will race through the night accompanied by
+              projected creatures mapped to the motion of the body suits.
             </ArticleBody>
             <ArticleFigure>
               <ArticleFigureImage
@@ -73,15 +77,14 @@ function App(props) {
             </ArticleFigure>
           </ArticleTextWrapper>
         </Article>
+
         <Article>
           <ArticleImage
             src="https://res.cloudinary.com/makingthings/image/upload/v1558582285/samsung/Stage.png"
             alt="Volumetric Stage"
           />
           <ArticleTextWrapper>
-            <ArticleHeader>
-              1st ever live volumtertically filmed event
-            </ArticleHeader>
+            <ArticleHeader>1st ever live 360 degree filmed event</ArticleHeader>
             <ArticleBody>
               The race will culminate with a party the banks of the river Where
               A star celebrity will performing on a floating stafge
@@ -115,12 +118,12 @@ function App(props) {
             </ArticleBody>
             <ArticleFigure>
               <ArticleFigureImage
-                src="https://res.cloudinary.com/makingthings/image/upload/v1558581811/samsung/maxresdefault.jpg"
+                src="https://res.cloudinary.com/makingthings/image/upload/v1558598317/samsung/Screenshot_2019-05-23_08.57.34.png"
                 alt="Creatures of the night"
               />
               <ArticleFigCaption>
-                Motion is projectoed on to available surfaces along the banks of
-                the river
+                Some of the weird and wonderful creatures runners will encounter
+                along the duration of the course
               </ArticleFigCaption>
             </ArticleFigure>
           </ArticleTextWrapper>
