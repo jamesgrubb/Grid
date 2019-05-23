@@ -7,10 +7,10 @@ import "tachyons";
 import * as serviceWorker from "./serviceWorker";
 
 const Global = createGlobalStyle`
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400');
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
 
-h1,h2,h3,h4{
-    font-family: 'IBM Plex Sans'
+h1{
+    font-family: 'Black Ops One', sans-serif;
 }
 `;
 

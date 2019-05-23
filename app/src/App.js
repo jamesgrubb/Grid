@@ -1,32 +1,50 @@
-import React from 'react';
-import logo from './logo.svg';
-import { Video } from './views/Video'
-import { ImageParent, Image} from './components/StyledImage/StyledImage'
-import './App.css';
+import React from "react";
+import { Video } from "./views/Video";
+import {
+  ArticleWrapper,
+  ArticleImage,
+  ArticleTextWrapper
+} from "./components/Article/Article";
+import {
+  HContainer,
+  HImage,
+  HTitle,
+  HLogo,
+  HSubtitle
+} from "./views/Header/Header";
+import { ReactComponent as Logo } from "./Samsung_Logo.svg";
+import "./App.css";
 
-function App( props ) {
+function App(props) {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <Video />
-    <ImageParent>
-      <Image src="https://res.cloudinary.com/makingthings/image/upload/v1558546514/samsung/FunRun.jpg" alt="fun run" />
-    </ImageParent>
-      
+      <HContainer>
+        <HImage
+          gc="1 / -1"
+          gr="1 / -1"
+          src="https://res.cloudinary.com/makingthings/image/upload/v1558566764/samsung/DwkdhjgUUAAt7bN.jpg"
+          alt="Samsung's Seriously Fun Runap"
+        />
+        <HLogo>
+          <Logo />
+        </HLogo>
 
+        <HTitle>Samsung's Seriously Sick Fun Run</HTitle>
+        <HSubtitle>
+          Londons First Gyroscopic suit mass event, along the banks of the
+          Thames culminating in The first ever Volumetrically boadcast live
+          concert
+        </HSubtitle>
+      </HContainer>
+
+      <Video />
+      <ArticleWrapper>
+        <ArticleImage
+          src="https://res.cloudinary.com/makingthings/image/upload/v1558546514/samsung/FunRun.jpg"
+          alt="fun run"
+        />
+        <ArticleTextWrapper>Some bodyCopy</ArticleTextWrapper>
+      </ArticleWrapper>
     </div>
   );
 }
