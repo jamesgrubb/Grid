@@ -1,11 +1,21 @@
 import styled from "styled-components";
+import { yellow } from "../../data";
 
-const ArticleWrapper = styled.article.attrs({
-  className: "vh-75"
+const Article = styled.article.attrs({
+  className: "pb2 pb4-ns bg-dark-blue w-100"
 })`
   display: grid;
   grid-template-columns: repeat(3, 25vw 1fr);
   grid-template-rows: repeat(6, 1fr);
+  grid-auto-rows: 1fr;
+`;
+
+const ArticleWrapper = styled.div.attrs({
+  className: "w-50"
+})`
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 2vmin;
 `;
 
 const ArticleImage = styled.img.attrs({
@@ -14,15 +24,52 @@ const ArticleImage = styled.img.attrs({
   alt: `${props => [props.alt]}`
 })`
   grid-column: 1 / -1;
-  grid-row: 1 / span 5;
+  grid-row: 1 / span 3;
   object-fit: cover;
 `;
 
 const ArticleTextWrapper = styled.div.attrs({
-  className: "pa4 bg light-gray"
+  className: "pa4 bg-light-gray dark-blue o-90"
 })`
-  grid-column: 2 / span 5;
-  grid-row: 4 / -1;
+  grid-column: 2 / span 4;
+  grid-row: 2 / -1;
+  box-shadow: -4px -4px 0px hsl(64, 100%, 50%);
 `;
 
-export { ArticleImage, ArticleWrapper, ArticleTextWrapper };
+const ArticleHeader = styled.h1.attrs({
+  className: "f4 f1-ns dar-blue ttu"
+})``;
+
+const ArticleBody = styled.p.attrs({
+  className: "dark-gray f5 f3-ns"
+})``;
+
+const ArticleFigure = styled.figure.attrs({
+  className: "m0"
+})`
+  margin: 0;
+`;
+
+const ArticleFigureImage = styled.img.attrs({
+  className: "w-100",
+  src: `${props => [props.src]}`,
+  alt: `${props => [props.alt]}`
+})`
+  object-fit: cover;
+`;
+
+const ArticleFigCaption = styled.figcaption.attrs({
+  className: "f6 f5-ns "
+})``;
+
+export {
+  ArticleImage,
+  ArticleWrapper,
+  ArticleTextWrapper,
+  ArticleHeader,
+  ArticleBody,
+  ArticleFigure,
+  ArticleFigCaption,
+  ArticleFigureImage,
+  Article
+};
