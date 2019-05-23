@@ -2,18 +2,17 @@ import styled from "styled-components";
 import { yellow } from "../../data";
 
 const ArticleWrapper = styled.div.attrs({
-  className: "w-50"
+  className: "w-100"
 })`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  grid-gap: 2vmin;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
 `;
 
-const Article = styled.article.attrs({
-  className: "pb2 pb4-ns bg-dark-blue w-100"
+const Article = styled.div.attrs({
+  className: "pb2 pb4-ns bg-dark-blue"
 })`
   display: grid;
-  grid-template-columns: repeat(3, 25vw 1fr);
+  grid-template-columns: repeat(3, 3fr 1fr);
   grid-template-rows: repeat(6, 1fr);
   grid-auto-rows: 1fr;
 `;
@@ -24,7 +23,7 @@ const ArticleImage = styled.img.attrs({
   alt: `${props => [props.alt]}`
 })`
   grid-column: 1 / -1;
-  grid-row: 1 / span 3;
+  grid-row: 1 / span 2;
   object-fit: cover;
 `;
 
