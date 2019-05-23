@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { yellow } from "../../data";
+
 
 const ArticleWrapper = styled.div.attrs({
   className: "w-100"

@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { VideoGallery } from "../../components/VideoGallery";
 import { vimeo } from "../../data";
-import { Embed } from "../../components/VideoItem";
+
 import ResponsiveEmbed from "react-responsive-embed";
 
 const Video = props => {

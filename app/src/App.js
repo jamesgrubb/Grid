@@ -82,7 +82,7 @@ function App(props) {
 
         <Article>
           <ArticleImage
-            src="https://res.cloudinary.com/makingthings/image/upload/v1558582285/samsung/Stage.png"
+            src="https://res.cloudinary.com/makingthings/image/upload/q_50/v1558609684/samsung/beyonce-hero-487073444_copy.jpg"
             alt="Volumetric Stage"
           />
           <ArticleTextWrapper>
